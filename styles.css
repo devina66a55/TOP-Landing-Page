@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+/* Header */
+.header {
+    background-color: #1F2937;
+    padding: 20px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: #E5E7EB;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 60px 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Information Section */
+.info {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    padding: 20px;
+    max-width: 150px;
+}
+
+/* Quote Section */
+.quote {
+    padding: 40px 20px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px 0;
+}
